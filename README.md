@@ -9,7 +9,7 @@ ierc-m5
 
 2. **克隆仓库**
    打开命令行工具并执行以下命令以克隆仓库：
-   git clone https://github.com/zfy666ci/ierc20_mint.git
+   git clone https://github.com/COINsciencer/ierc20_mint.git
 3. **安装依赖**
    进入克隆的仓库目录，然后运行以下命令安装必要的依赖：
    cd ierc20_mint
