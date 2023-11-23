@@ -4,7 +4,7 @@ const privateKey = ''
 
 //这里修改tick和gas price 还有数量
 const amt = '1000'
-const tick = 'ierc-m4'
+const tick = 'ierc-m5'
 const gas = '60'
 
 
@@ -49,7 +49,7 @@ async function run(nonce,address) {
     const signedTx = await walletWithProvider.signTransaction(tx);
     const parsedTx = ethers.utils.parseTransaction(signedTx);
     console.log(parsedTx.hash)
-    if (parsedTx.hash.substring(0, 6) == '0x0000') {
+    if (parsedTx.hash.substring(0, 7) == '0x0000') {
         console.log('\x1b[32m', nonce+"---->https://etherscan.io/tx/"+parsedTx.hash, '\x1b[0m');
         try {
             const txResponse = await walletWithProvider.sendTransaction(tx);
