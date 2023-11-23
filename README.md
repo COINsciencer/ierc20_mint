@@ -17,3 +17,5 @@ ierc-m5
 4. **配置并运行脚本**
    打开 `index.js` 文件，并设置你的 `address`、`private`、`gas`、代币的 `名称` 和 `数量`。
    完成配置后，在命令行中运行以下命令来执行脚本：
+node index.js
+推https://twitter.com/howbuybtc
